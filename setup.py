@@ -12,6 +12,7 @@
 
 from setuptools import setup, find_packages  # noqa: H301
 
+README = open("README.md", "r").read()
 NAME = "EmbyAPI"
 VERSION = "4.1.1.0"
 # To install the library, run the following
@@ -29,11 +30,9 @@ setup(
     description="Emby Server API",
     author_email="",
     url="",
-    keywords=["Swagger", "Emby Server API"],
+    keywords=["Swagger", "Emby Server API", "Emby"],
     install_requires=REQUIRES,
     packages=find_packages(),
     include_package_data=True,
-    long_description="""\
-    Explore the Emby Server API  # noqa: E501
-    """
+    long_description=README
 )
