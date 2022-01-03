@@ -14,7 +14,7 @@ from setuptools import setup, find_packages  # noqa: H301
 
 README = open("README.md", "r").read()
 NAME = "EmbyAPI"
-VERSION = "4.1.1.0"
+VERSION = "4.1.1.0a0"
 # To install the library, run the following
 #
 # python setup.py install
