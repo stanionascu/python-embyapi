@@ -1,3 +1,8 @@
+# Github
+
+[![Python package](https://github.com/stanionascu/python-embyapi/actions/workflows/python-package.yml/badge.svg?branch=main)](https://github.com/stanionascu/python-embyapi/actions/workflows/python-package.yml)
+[![Upload Python Package](https://github.com/stanionascu/python-embyapi/actions/workflows/python-publish.yml/badge.svg)](https://github.com/stanionascu/python-embyapi/actions/workflows/python-publish.yml)
+
 # EmbyAPI
 Explore the Emby Server API
 
