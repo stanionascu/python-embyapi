@@ -1,0 +1,47 @@
+# UsersUserPolicy
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**is_administrator** | **bool** |  | [optional] 
+**is_hidden** | **bool** |  | [optional] 
+**is_hidden_remotely** | **bool** |  | [optional] 
+**is_disabled** | **bool** |  | [optional] 
+**max_parental_rating** | **int** |  | [optional] 
+**blocked_tags** | **list[str]** |  | [optional] 
+**enable_user_preference_access** | **bool** |  | [optional] 
+**access_schedules** | [**list[ConfigurationAccessSchedule]**](ConfigurationAccessSchedule.md) |  | [optional] 
+**block_unrated_items** | **list[str]** |  | [optional] 
+**enable_remote_control_of_other_users** | **bool** |  | [optional] 
+**enable_shared_device_control** | **bool** |  | [optional] 
+**enable_remote_access** | **bool** |  | [optional] 
+**enable_live_tv_management** | **bool** |  | [optional] 
+**enable_live_tv_access** | **bool** |  | [optional] 
+**enable_media_playback** | **bool** |  | [optional] 
+**enable_audio_playback_transcoding** | **bool** |  | [optional] 
+**enable_video_playback_transcoding** | **bool** |  | [optional] 
+**enable_playback_remuxing** | **bool** |  | [optional] 
+**enable_content_deletion** | **bool** |  | [optional] 
+**enable_content_deletion_from_folders** | **list[str]** |  | [optional] 
+**enable_content_downloading** | **bool** |  | [optional] 
+**enable_subtitle_downloading** | **bool** |  | [optional] 
+**enable_subtitle_management** | **bool** |  | [optional] 
+**enable_sync_transcoding** | **bool** |  | [optional] 
+**enable_media_conversion** | **bool** |  | [optional] 
+**enabled_devices** | **list[str]** |  | [optional] 
+**enable_all_devices** | **bool** |  | [optional] 
+**enabled_channels** | **list[str]** |  | [optional] 
+**enable_all_channels** | **bool** |  | [optional] 
+**enabled_folders** | **list[str]** |  | [optional] 
+**enable_all_folders** | **bool** |  | [optional] 
+**invalid_login_attempt_count** | **int** |  | [optional] 
+**enable_public_sharing** | **bool** |  | [optional] 
+**blocked_media_folders** | **list[str]** |  | [optional] 
+**blocked_channels** | **list[str]** |  | [optional] 
+**remote_client_bitrate_limit** | **int** |  | [optional] 
+**authentication_provider_id** | **str** |  | [optional] 
+**excluded_sub_folders** | **list[str]** |  | [optional] 
+**disable_premium_features** | **bool** |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+

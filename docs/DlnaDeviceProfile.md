@@ -1,0 +1,47 @@
+# DlnaDeviceProfile
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**name** | **str** |  | [optional] 
+**id** | **str** |  | [optional] 
+**identification** | [**DlnaDeviceIdentification**](DlnaDeviceIdentification.md) |  | [optional] 
+**friendly_name** | **str** |  | [optional] 
+**manufacturer** | **str** |  | [optional] 
+**manufacturer_url** | **str** |  | [optional] 
+**model_name** | **str** |  | [optional] 
+**model_description** | **str** |  | [optional] 
+**model_number** | **str** |  | [optional] 
+**model_url** | **str** |  | [optional] 
+**serial_number** | **str** |  | [optional] 
+**enable_album_art_in_didl** | **bool** |  | [optional] 
+**enable_single_album_art_limit** | **bool** |  | [optional] 
+**enable_single_subtitle_limit** | **bool** |  | [optional] 
+**supported_media_types** | **str** |  | [optional] 
+**user_id** | **str** |  | [optional] 
+**album_art_pn** | **str** |  | [optional] 
+**max_album_art_width** | **int** |  | [optional] 
+**max_album_art_height** | **int** |  | [optional] 
+**max_icon_width** | **int** |  | [optional] 
+**max_icon_height** | **int** |  | [optional] 
+**max_streaming_bitrate** | **int** |  | [optional] 
+**max_static_bitrate** | **int** |  | [optional] 
+**music_streaming_transcoding_bitrate** | **int** |  | [optional] 
+**max_static_music_bitrate** | **int** |  | [optional] 
+**sony_aggregation_flags** | **str** |  | [optional] 
+**protocol_info** | **str** |  | [optional] 
+**timeline_offset_seconds** | **int** |  | [optional] 
+**requires_plain_video_items** | **bool** |  | [optional] 
+**requires_plain_folders** | **bool** |  | [optional] 
+**enable_ms_media_receiver_registrar** | **bool** |  | [optional] 
+**ignore_transcode_byte_range_requests** | **bool** |  | [optional] 
+**xml_root_attributes** | [**list[DlnaXmlAttribute]**](DlnaXmlAttribute.md) |  | [optional] 
+**direct_play_profiles** | [**list[DlnaDirectPlayProfile]**](DlnaDirectPlayProfile.md) |  | [optional] 
+**transcoding_profiles** | [**list[DlnaTranscodingProfile]**](DlnaTranscodingProfile.md) |  | [optional] 
+**container_profiles** | [**list[DlnaContainerProfile]**](DlnaContainerProfile.md) |  | [optional] 
+**codec_profiles** | [**list[DlnaCodecProfile]**](DlnaCodecProfile.md) |  | [optional] 
+**response_profiles** | [**list[DlnaResponseProfile]**](DlnaResponseProfile.md) |  | [optional] 
+**subtitle_profiles** | [**list[DlnaSubtitleProfile]**](DlnaSubtitleProfile.md) |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
